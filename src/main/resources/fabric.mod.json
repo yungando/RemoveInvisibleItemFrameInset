@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "removeinvisibleitemframeinset",
+	"version": "${version}",
+	"name": "RemoveInvisibleItemFrameInset",
+	"description": "Removes the invisible item frame held model inset.",
+	"authors": [
+		"yungando"
+	],
+	"contact": {
+		"homepage": "https://github.com/yungando/removeinvisibleitemframeinset",
+		"sources": "https://github.com/yungando/removeinvisibleitemframeinset",
+		"issues": "https://github.com/yungando/removeinvisibleitemframeinset/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/removeinvisibleitemframeinset/icon.png",
+	"environment": "client",
+	"mixins": [
+		"removeinvisibleitemframeinset.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
